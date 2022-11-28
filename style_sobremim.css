@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #060440;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color:#4D1473;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    color: #F25790;
+}
+
+.cabecalho-menu-item{
+    color:#F25790;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.resumo-foto{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding: 30px;
+}
+
+.resumo{
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #CF4DA5;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: float 0.5s ease-in-out;
+}
+@keyframes float{
+    0%{
+        transform:translate(-1000px);
+    }
+    50%{
+        transform:translate(-130px);
+
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+.resumo-sobre-mim{
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ECCCE3;
+}
+
+.foto{
+    width: 1000px;
+    animation: float 1.5s ease-in-out;
+
+}
+
+@keyframes float{
+    0%{
+        transform:translate(100px);
+    }
+    50%{
+        transform:translate(-30px);
+
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+.conteudo-secundario{
+    color:#ECCCE3;
+    padding:5px;
+    margin-top: -300px;
+}
+
+h2{
+    color:#CF4DA5;
+}
+
+.logica-dev-aprender{
+    margin-left: 600px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #53008ba6;
+}
+
+.python{
+    border-radius: 30px;
+    box-shadow:2px 2px 4px #51028696;
+}
+
+.front {
+    margin-left: 600px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #4d14738c;
+}
+
+.alura{
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #4d147396;
+}
+
+#curso{
+    padding: 3px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    gap:4px;
+}
+
+@media screen and (max-width:600px) {
+    .foto{
+        width: 400px;
+        margin-left: -50px;
+        animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+        0%{
+            transform:translate(0px);
+        }
+        50%{
+            transform:translate(-30px);
+    
+        }
+        100%{
+            transform: translate(0px);
+        }
+    }
+    
+    .resumo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-secundario{
+        margin-top: 60px;
+    }
+
+    .logica-dev-aprender,.front{
+        margin-left: -10px;
+    }
+
+    .Logotipo-daniel{
+        width: 50px;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        background-color:#4D1473;
+    }
+    
+    .cabecalho-menu{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .cabecalho-menu-item{
+        color:#F25790;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+    }
+
+   
+} 

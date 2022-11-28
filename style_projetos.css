@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #060440;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color:#4D1473;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color:#F25790;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: #CF4DA5;
+    font-size: 60px;
+    text-align: center;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.projetoalistamento{
+    display: flex;
+    flex-direction: column;
+       width: 500px;
+
+}
+
+.alistamento{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    
+}
+
+.embreve1, .embreve2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.emb1, .emb2, .emb3{
+    padding: 20px;
+    width: 280px;
+    display: flex;  
+    flex-direction: column;
+    border-radius: 35px;
+}
+
+.projetos-itens{
+    display: flex;
+    align-content: center;
+    color:#ECCCE3;
+
+}
+
+.logo-items{
+    width: 20px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;    
+    color:#ECCCE3;
+}
+
+.tecitems{
+    color:#CF4DA5;
+    text-align: center;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ECCCE3;
+}
+
+.logo-tec-items{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline; 
+    padding-left: 150px;
+    color:#ECCCE3;
+}
+
+li{
+    font-size: 20px;
+}
+
+.button-ver-mais{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color:white;
+    background-color:#8C1F7A;
+    border-color:#8C1F7A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 630px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .projetos-itens{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botao{
+        margin-left: 65px;
+        margin-top: 10px;
+    }
+    #alistamento{
+        width: 400px;
+    }
+
+    .Logotipo-daniel{
+        width: 50px;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        background-color:#4D1473;
+    }
+    
+    .cabecalho-menu{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .cabecalho-menu-item{
+        color:#F25790;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+    }
+    
+}
+
+

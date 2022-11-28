@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color:#060440;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #4D1473;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color:#F25790;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CF4DA5;
+    font-size: 50px;
+    padding:5px;
+}
+
+h3{
+    font-size: 20px;
+    color:#ECCCE3;
+    padding: 5px;
+}
+
+.logo-nome{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-left: 60px;
+    gap:10px;
+
+}
+
+.nome{
+    font-size: 20px;
+    color:#CF4DA5;
+}
+
+.logo-item{
+    width: 90px;
+}
+
+.comentario-logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comentario{
+    font-size: 20px;
+    padding-left: 100px;
+    color:#ECCCE3;
+}
+
+.type {
+    width: 90px;
+    
+}
+
+.react{
+    width: 90px;
+    
+}
+
+.comentario-logo-secundario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+    gap: 4px;
+}
+
+.conteudo-secundario{
+    margin-top: -690PX;
+}
+
+.exibir-texto-type{
+    display: flex;
+    flex-direction: row;
+    color:#ECCCE3;
+    font-size: 20px;
+}
+
+.nome-secundario{
+    font-size: 20px;
+    color: #CF4DA5;
+}
+
+.exibir-texto-react{
+    color: #ECCCE3;
+    font-size: 20px;
+}
+
+.estudando{
+    font-size: 35px;
+}
+
+@media screen  and (max-width:600px){
+    .comentario-logo-secundario{
+        margin-left: -1px;
+        padding-top: none;
+        padding-left: 70px;
+    }
+
+    .conteudo-secundario{
+        padding-top: 700px;
+    }
+
+    .Logotipo-daniel{
+        width: 50px;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        background-color:#4D1473;
+    }
+    
+    .cabecalho-menu{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .cabecalho-menu-item{
+        color:#F25790;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 11px;
+    }
+    
+}

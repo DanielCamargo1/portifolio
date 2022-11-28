@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(209, 227, 241);
+}
+
+.imagemfab {
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.cabecalho{
+    background-color: rgb(46, 46, 194);
+
+}
+
+.comandoaeronautica {   
+    margin-left: 350px;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:aliceblue;
+}
+
+ .imagembr {
+    width: 90px;
+    margin-left: 1250px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+ }
+
+.soldadofab {
+    width: 600px;
+    margin-top: -70px;
+    border-radius: 10px;
+
+}
+
+.balist {
+    color:blue;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    font-size: 60px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.instruçãoalistamento {
+    margin-top: -400px;
+    margin-left: 680px;
+    text-decoration-line: overline;
+    color:rgb(3, 3, 121);
+    
+
+}
+
+.textexp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size-adjust:auto;
+    text-align:left;
+}
+
+.cadastro {
+    margin-left:    400px;
+    margin-top: 50px;
+}
+
+.cadastroAlistamento {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.seunome {
+font-size: 20px;
+
+}
+
+.seusobrenome{
+    font-size: 20px;
+}
+
+.ssbnome {
+    margin-left: 250px;
+    margin-top: -110px;
+}
+
+.suaidade {
+    font-size: 20px;
+}
+
+.seucpf {
+    font-size: 20px;
+}
+
+.desejaservir {
+    font-size: 20px;
+}
+
+.scpf {
+    margin-left: 250px;
+    margin-top: -110px;
+}
+
+.ntel {
+    margin-left: 250px;
+    margin-top: -110px;
+}
+
+.cdt {
+    margin-top: 20px;
+    margin-left: 170px;
+    border-radius: 40px;
+    background-color: blue;
+    color:aliceblue;
+    width: 100px;
+}
